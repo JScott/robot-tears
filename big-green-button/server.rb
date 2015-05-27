@@ -11,9 +11,7 @@ end
 get '/' do
   html = File.read "#{__dir__}/index.html"
   eruby = Erubis::Eruby.new html
-  p File.expand_path(configatron.job_path), Dir["#{File.expand_path configatron.job_path}/*.yaml"]
-  jobs = Dir["#{File.expand_path configatron.job_path}/*.yaml"].map { |path| File.basename path, '.yaml' }
-  p jobs
+  jobs = `sweatshop job-list`.split "\n"
   context = {jobs: jobs}
   return eruby.result(context)
 end
