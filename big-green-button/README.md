@@ -4,4 +4,4 @@ This tool exists to provide a web interface to kick off Robot Sweatshop jobs. Wh
 
 ## Usage
 
-Run this script with the argument of the port number you want to bind to. If you have a relative path for Robot Sweatshop jobs, make sure that you run this from the same path that you ran Robot Sweatshop so that it can find your jobs. It defaults to 8081.
+Run this script with the argument of the port number you want to bind to. It defaults to 8081
