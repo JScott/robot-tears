@@ -1,5 +1,4 @@
 ---
-name: Big Green Button
 repo: git@github.com:JScott/sweatshop-gears-big-green-button.git
 type: binary
 author: jscott <jvscott@gmail.com>

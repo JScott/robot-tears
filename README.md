@@ -8,6 +8,12 @@ These are the packages imported by [Sweatshop Gears](https://github.com/JScott/s
 
 When creating a Gears package:
 
-- include the binary in the package root with the same name as the directory
-- create `metadata.yaml` (see existing packages for examples)
-- include a Gemfile if your script requires the use of gems
+- Create a repo for the package code with...
+    - an executable at the root as the entry point
+    - a Gemfile if applicable
+- Create a YAML file here with...
+    - the same name as your executable entry point
+    - the git repo link
+    - the type (binary or service)
+    - an author
+    - a description

@@ -1,5 +1,4 @@
 ---
-name: Git Sync
 repo: git@github.com:JScott/sweatshop-gears-git-sync.git
 type: service
 author: jscott <jvscott@gmail.com>
