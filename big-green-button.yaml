@@ -1,5 +1,5 @@
 ---
 repo: git@github.com:JScott/sweatshop-gears-big-green-button.git
-type: binary
+type: service
 author: jscott <jvscott@gmail.com>
 description: "Make sure you've cloned before you pull but never pull before you've cloned. It's not hard to do but it's worth automating."
