@@ -14,6 +14,6 @@ When creating a Gears package:
 - Create a YAML file here with...
     - the same name as your executable entry point
     - the git repo link
-    - the type (binary or service)
+    - the type (script or service)
     - an author
     - a description
