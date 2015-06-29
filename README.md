@@ -18,7 +18,7 @@ When creating a Gears package:
     - an author
     - a description
 
-If you're creating a service package, the executable has a few expectations:
+## Package types
 
-- The port it will run is the first command line parameter (e.g. `my_service 8080`)
-- Routes and links are proxy-aware (e.g. root route is '/my_service')
+- Scripts are loaded into a Robot Sweatshop worker's path to be run during a job
+- Services are daemonized and run in the background under a range of ports
